@@ -1,9 +1,271 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T14:45:44.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.1" etag="oGJFzU2GI4irjSyaReH0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-05T11:54:04.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="_nHJ3MVvHvEfBPt3M_tq" version="24.2.1" type="github">
   <diagram name="Página-1" id="m3cjVdi0gstBIf7Jt_iZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iFa1_UilMOilf_gVOt69-2" value="Se desea informatizar la gestión de una tienda informática. La tienda dispone de una&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;serie de productos que se pueden vender a los clientes. De cada producto informático&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;se desea guardar el código, descripción, precio y número de existencias. De cada cliente&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;se desea guardar el código, nombre, apellidos, dirección y número de teléfono. Un&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;cliente puede comprar varios productos en la tienda y un mismo producto puede ser&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;comprado por varios clientes. Cada vez que se compre un artículo quedará registrada la&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;compra en la base de datos junto con la fecha en la que se ha comprado el artículo. La&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;tienda tiene contactos con varios proveedores que son los que suministran los&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;productos. Un mismo producto puede ser suministrado por varios proveedores. De&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;cada proveedor se desea guardar el código, nombre, apellidos, dirección, provincia y&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;número de teléfono." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;fillColor=default;strokeColor=default;perimeterSpacing=0;glass=0;shadow=1;spacingTop=0;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="10" width="350" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-4" value="Tienda Informática" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="170" y="10" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-5" value="Productos" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-5">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-7" value="PK" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-6">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-8" value="Código" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-6">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-5">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-10" value="" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-9">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-11" value="Descripción" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-9">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-12" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-5">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-13" value="" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-12">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-14" value="Precio" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-12">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-5">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-16" value="" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-15">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-17" value="NroExistencias" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-15">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-18" value="Clientes" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-18">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-20" value="PK" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-19">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-21" value="Código" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-19">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-18">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-23" value="" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-22">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-24" value="Nombre" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-22">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-18">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-26" value="" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-25">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-27" value="Apellido" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-25">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-18">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-29" value="" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-28">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-30" value="Dirección" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-28">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-34" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-18">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-35" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-34">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-36" value="Teléfono" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-34">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-37" value="Compras" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-38" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-37">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-39" value="PK" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-38">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-40" value="CódigoProducto" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-38">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-37">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-42" value="" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-41">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-43" value="Fecha" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-41">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-50" value="Proveedores" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-50">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-52" value="PK" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-51">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-53" value="Código" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-51">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-50">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-55" value="" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-54">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-56" value="Nombre" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-54">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-57" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-50">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-58" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-57">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-59" value="Apellido" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-57">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-60" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-50">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-61" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-60">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-62" value="Dirección" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-60">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-63" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-50">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-64" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-63">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-65" value="Provincia" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-63">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-66" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="iFa1_UilMOilf_gVOt69-50">
+          <mxGeometry y="180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-67" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-66">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-68" value="Telefono" style="shape=partialRectangle;connectable=0;fillColor=default;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="iFa1_UilMOilf_gVOt69-66">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-72" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=-0.002;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iFa1_UilMOilf_gVOt69-50">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="30" y="140" as="sourcePoint" />
+            <mxPoint x="130" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="141" />
+              <mxPoint x="146" y="141" />
+              <mxPoint x="146" y="316" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-73" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1.004;entryY=0.141;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iFa1_UilMOilf_gVOt69-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="120" as="sourcePoint" />
+            <mxPoint x="360" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFa1_UilMOilf_gVOt69-74" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1.031;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iFa1_UilMOilf_gVOt69-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="210" y="310" as="sourcePoint" />
+            <mxPoint x="310" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
